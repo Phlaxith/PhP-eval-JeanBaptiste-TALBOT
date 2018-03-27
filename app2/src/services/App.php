@@ -16,7 +16,8 @@ class App extends Service implements AppInterface, RunnableInterface
 	{
 		try 
 		{
-			$routes = [];
+			$routes = fn\writeJson(PATH_CONF);
+			var_dump($routes);
 			$router = new Router($routes);
 			echo $router();
 		}
