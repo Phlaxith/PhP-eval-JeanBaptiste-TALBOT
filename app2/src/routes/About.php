@@ -3,6 +3,6 @@
  namespace App\routes;
  use App\routes;
 
- class Home extends Route{
+ class About extends Route{
 
  }
