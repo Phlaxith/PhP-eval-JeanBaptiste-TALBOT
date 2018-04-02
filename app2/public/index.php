@@ -29,8 +29,10 @@ include($src.'resources/Router.php');
 include($src.'services/AppInterface.php');
 include($src.'services/App.php');
 
+include($src.'routes/Home.php');
+include($src.'routes/About.php');
+include($src.'routes/Contact.php');
 
-include($src.'routes/home.php');
 
 $app = App::getInstance();
 $app();
